@@ -1,0 +1,11 @@
+1. Introduce swing.
+2. Write your understanding about Frame.
+3. Ellaborate the steps to write a program to display text "Not a Hello World!" inside a component.
+4. How do you draw 2D shapes in Swing ?
+5. How do you draw characters in a Font ?
+6. Write a program to draw an image on top left corner of window and copy it to into the entire window.
+7. Give a brief overview how event handling in AWT works. Write a program to demonstrate event handling using button, whenever you click the button the appropriate action listener changes the background of the panel.
+8. What are adapter classes. What is the benefits of using adapter classes in Java while creating events in GUI programs?
+9. What do you understand by MVC pattern. Explain how Swing implements MVC design pattern.
+10. Why do we need to use layout managers while creating GUI Applications? Throw some light on No Layout and GridBag layout managers.
+	

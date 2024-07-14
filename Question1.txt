@@ -1,0 +1,5 @@
+1. Implement a basic drawing application where the user can draw lines by clicking and dragging the mouse. Use MouseListener and MouseMotionListener to achieve this.
+
+2. Create a JFrame with a JPanel. Change the background color of the panel when the mouse enters it and change it back when the mouse exits. Use a MouseAdapter for this task.
+
+3. Design a simple drawing application with a JPanel and a set of buttons for different shapes (e.g., circle, rectangle, line). Implement event handlers to draw the selected shape on the JPanel when the respective button is clicked.
