@@ -7,7 +7,7 @@ public class RMIServer {
 
 	public static void main(String[] args) {
 		try {
-			// Start the rmiprogram registry
+			// Start the RMI registry
 			LocateRegistry.createRegistry(1099);
 
 			// Create an instance of the AdderImpl class
@@ -16,7 +16,7 @@ public class RMIServer {
 			// Bind the remote object (stub) in the registry
 			Naming.rebind("rmi://localhost/Adder", adder);
 
-			System.out.println("rmiprogram Server is running...");
+			System.out.println("RMI Server is running...");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -6,7 +6,7 @@ public class RMIClient {
 
 	public static void main(String[] args) {
 		try {
-			// Look up the remote object in the rmiprogram registry
+			// Look up the remote object in the RMI registry
 			Adder adder = (Adder) Naming.lookup("rmi://localhost/Adder");
 
 			// Call the remote method and print the result
