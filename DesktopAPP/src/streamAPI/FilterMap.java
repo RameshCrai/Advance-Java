@@ -16,7 +16,7 @@ public class FilterMap {
 		return nm > 4;
 				});
 		Stream<String> mappedStream = filterIntegerStream.map(nmb -> {
-			System.out.println("Map: mapping number "+nmb);
+			System.out.println("Map: mapping number(that transform input number) "+nmb);
 																		switch (nmb) {
 																		case 1:
 																			return "One";
